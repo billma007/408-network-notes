@@ -2,7 +2,9 @@
 
 使用 Hexo 8.1.2 和 [Stellar 2.0.0](https://github.com/xaoxuu/hexo-theme-stellar) 整理的个人学习网站。
 
-网站：https://billma007.github.io/408-network-notes/
+网站：https://billma.top/408-network-notes/
+
+GitHub 默认地址 https://billma007.github.io/408-network-notes/ 会随现有个人主页设置跳转到上述自定义域名。原个人主页仍在 https://billma.top/ 。
 
 包括24篇小节讲义、知识点蒸馏、闭卷自测、材料覆盖记录和6张教学配图。原课程内容及配图权利归原作者所有，本文档为个人学习整理；主题许可见其原仓库。本仓库不包含原视频、识别缓存或账户凭据。
 

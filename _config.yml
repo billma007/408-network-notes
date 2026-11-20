@@ -4,7 +4,7 @@ description: 408计算机网络强化课讲义、公式速查、解题技巧与�
 author: billma007
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://billma007.github.io/408-network-notes
+url: https://billma.top/408-network-notes
 root: /408-network-notes/
 permalink: :title/
 theme: stellar

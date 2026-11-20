@@ -5,9 +5,9 @@ leftbar:
     href: /
     search: true
   menu:
-    - {type: link, id: home, title: 学习首页, url: /, icon: default:home}
-    - {type: link, id: handbook, title: 分节讲义, url: /wiki/network/, icon: default:wiki}
-    - {type: link, id: distilled, title: 知识点蒸馏, url: /wiki/network/distilled/, icon: default:bookmark}
+    - {type: link, id: home, title: 学习首页, url: /, icon: default:monitor}
+    - {type: link, id: handbook, title: 分节讲义, url: /wiki/network/, icon: default:documents}
+    - {type: link, id: distilled, title: 知识点蒸馏, url: /wiki/network/distilled/, icon: default:notebook}
     - {type: link, id: quiz, title: 闭卷自测, url: /wiki/network/quiz/, icon: default:edit}
     - {type: link, id: github, title: GitHub, url: https://github.com/billma007/408-network-notes, icon: default:github}
 profiles:

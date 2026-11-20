@@ -23,6 +23,7 @@ await mkdir(output,{recursive:true});
 await mkdir('source/assets/network',{recursive:true});
 await mkdir('source/vendor/katex/fonts',{recursive:true});
 await copyFile('node_modules/katex/dist/katex.min.css','source/vendor/katex/katex.min.css');
+await copyFile('node_modules/katex/LICENSE','source/vendor/katex/LICENSE');
 for(const font of await readdir('node_modules/katex/dist/fonts')){
   if(!font.startsWith('.'))await copyFile('node_modules/katex/dist/fonts/'+font,'source/vendor/katex/fonts/'+font);
 }

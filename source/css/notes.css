@@ -1,4 +1,5 @@
 @import url("../vendor/katex/katex.min.css");
+.l_main:has(.study-hero) .article-banner-wrap{display:none}
 .study-hero{padding:42px 34px 28px;background:linear-gradient(125deg,#102f3b,#155868);color:#effbfa;border-radius:24px;margin:0 0 36px;overflow:hidden;position:relative}
 .study-hero:after{content:"";position:absolute;width:270px;height:270px;border:1px solid #ffffff16;border-radius:50%;right:-100px;top:-90px;box-shadow:0 0 0 35px #ffffff08,0 0 0 70px #ffffff06;pointer-events:none}
 .study-eyebrow{font-size:11px;letter-spacing:2px;color:#a7d5d7;font-weight:700}
