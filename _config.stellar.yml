@@ -1,0 +1,55 @@
+leftbar:
+  brand:
+    name: 计算机网络
+    tagline: 408 · 强化知识库
+    href: /
+    search: true
+  menu:
+    - {type: link, id: home, title: 学习首页, url: /, icon: default:home}
+    - {type: link, id: handbook, title: 分节讲义, url: /wiki/network/, icon: default:wiki}
+    - {type: link, id: distilled, title: 知识点蒸馏, url: /wiki/network/distilled/, icon: default:bookmark}
+    - {type: link, id: quiz, title: 闭卷自测, url: /wiki/network/quiz/, icon: default:edit}
+    - {type: link, id: github, title: GitHub, url: https://github.com/billma007/408-network-notes, icon: default:github}
+profiles:
+  home:
+    active_menu: home
+  blog_index:
+    active_menu: home
+  post:
+    active_menu: home
+  topic:
+    active_menu: home
+  author:
+    active_menu: home
+  page:
+    active_menu: home
+  error:
+    active_menu: home
+rightbar:
+  widgets: [toc]
+search:
+  provider: local
+  local:
+    scope: all
+    include_content: true
+    cache_ttl_seconds: 0
+appearance:
+  preset: card
+  color_scheme: auto
+  colors:
+    primary: '#167d8d'
+    accent: '#cf8943'
+    link: '#167d8d'
+  typography:
+    font_size:
+      root: 16px
+    content_align: left
+article:
+  style: tech
+  footer:
+    license: false
+    share: []
+footer:
+  content: '个人学习整理 · 原课程内容权利归原作者所有。网站由 [Hexo](https://hexo.io/) 与 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 驱动。'
+inject:
+  head_end: '<link rel="stylesheet" href="/408-network-notes/css/notes.css">'

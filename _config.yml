@@ -1,0 +1,27 @@
+title: 计算机网络 · 强化知识库
+subtitle: 把零散考点，连成一张网络。
+description: 408计算机网络强化课讲义、公式速查、解题技巧与闭卷自测。
+author: billma007
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://billma007.github.io/408-network-notes
+root: /408-network-notes/
+permalink: :title/
+theme: stellar
+source_dir: source
+public_dir: public
+skip_render: []
+ignore:
+  - '**/._*'
+highlight:
+  enable: false
+prismjs:
+  enable: false
+markdown:
+  anchors: false
+  render:
+    html: true
+    breaks: false
+    typographer: false
+  plugins:
+    - '@traptitech/markdown-it-katex'
